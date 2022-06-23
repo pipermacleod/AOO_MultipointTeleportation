@@ -1,0 +1,230 @@
+<configs>
+    <append xpath="/blocks">	
+	
+		<block name="npcTeleporter01AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter01;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter01DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter01AOO_Desc"/>
+
+		</block>
+		<block name="npcTeleporter02AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter02;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter02DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter02AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter03AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter03;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter03DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter03AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter04AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter04;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter04DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter04AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter05AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter05;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter05DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter05AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter06AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter06;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter06DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter06AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter07AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter07;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter07DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter07AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter08AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter08;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter08DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter08AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter09AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter09;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter09DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter09AOO_Desc"/>
+		</block>
+		<block name="npcTeleporter10AOO">
+			<property name="Extends" value="SpawnCube"/>
+			<property name="Class" value="SpawnCube2SDX, SCore" />
+			<property name="Config" value="ec=npcTeleporter10;task=stay;pc=0" />
+			<property name="DowngradeBlock" value="npcteleporter10DestinationAOO"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+						<property name="CustomIcon" value="Portal"/>
+						<property name="DescriptionKey" value="npcTeleporter10AOO_Desc"/>
+		</block>
+
+
+
+
+		<block name="npcteleporter01DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC01,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel01(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter02DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC02,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel02(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter03DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC03,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel03(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter04DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC04,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+				<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel04(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>		
+		<block name="npcteleporter05DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC05,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel05(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter06DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC06,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel06(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter07DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC07,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel07(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter08DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC08,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel08(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter09DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC09,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel09(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		<block name="npcteleporter10DestinationAOO">
+			<property name="Extends" value="portalMaster"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+			<property name="Model" value="#@modfolder(0-SCore):Resources/gupFuturePortal.unity3d?guppyFuturePortal"/>
+			<property name="Location" value="source=tpNPC10,destination=NA" />
+			<property name="Display" value="false" />
+			<property name="RequiredPower" value="0" /> 	<!-- Does not require power to operate -->
+			<property name="AlwaysActive" value="true" />
+			<property name="ActiveRadiusEffects" value="buffTel10(3)"/>
+			<property name="ActivationDistance" value="3"/>
+		</block>
+		</append> 
+</configs>

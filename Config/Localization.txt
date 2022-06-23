@@ -1,0 +1,38 @@
+Key,Source,Context,Changes,English
+
+npcTeleporter01AOO,blocks,Block,,"Teleporter Location #1"
+npcTeleporter02AOO,blocks,Block,,"Teleporter Location #2"
+npcTeleporter03AOO,blocks,Block,,"Teleporter Location #3"
+npcTeleporter04AOO,blocks,Block,,"Teleporter Location #4"
+npcTeleporter05AOO,blocks,Block,,"Teleporter Location #5"
+npcTeleporter06AOO,blocks,Block,,"Teleporter Location #6"
+npcTeleporter07AOO,blocks,Block,,"Teleporter Location #7"
+npcTeleporter08AOO,blocks,Block,,"Teleporter Location #8"
+npcTeleporter09AOO,blocks,Block,,"Teleporter Location #9"
+npcTeleporter10AOO,blocks,Block,,"Teleporter Location #10"
+
+npcTeleporter01AOO_Desc,blocks,Block,,"Teleporter Location #1 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack.\n\n Add additional teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to Craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level."
+npcTeleporter02AOO_Desc,blocks,Block,,"Teleporter Location #2 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level."
+npcTeleporter03AOO_Desc,blocks,Block,,"Teleporter Location #3 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level."
+npcTeleporter04AOO_Desc,blocks,Block,,"Teleporter Location #4 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter05AOO_Desc,blocks,Block,,"Teleporter Location #5 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter06AOO_Desc,blocks,Block,,"Teleporter Location #6 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter07AOO_Desc,blocks,Block,,"Teleporter Location #7 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter08AOO_Desc,blocks,Block,,"Teleporter Location #8 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter09AOO_Desc,blocks,Block,,"Teleporter Location #9 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+npcTeleporter10AOO_Desc,blocks,Block,,"Teleporter Location #10 - With this Teleporter you are able to teleport to your Bed Roll, Land Claim or your Backpack, as well as any other teleporters \n\n Add Additional Teleporters for more locations.  Becareful where you place thes as they will be permanent. Placing multiples of the same portal will not work. you can only teleport to the first one placed.\n\n In order to craft or be able to teleport to a location you must have your Telportation Skill at the appropriate level.""
+
+
+
+npcTeleporter_01,entity,Entity,,"Teleporter Location #1"
+npcTeleporter02,entity,Entity,,"Teleporter Location #2"
+npcTeleporter03,entity,Entity,,"Teleporter Location #3"
+npcTeleporter04,entity,Entity,,"Teleporter Location #4"
+npcTeleporter05,entity,Entity,,"Teleporter Location #5"
+npcTeleporter06,entity,Entity,,"Teleporter Location #6"
+npcTeleporter07,entity,Entity,,"Teleporter Location #7"
+npcTeleporter08,entity,Entity,,"Teleporter Location #8"
+npcTeleporter09,entity,Entity,,"Teleporter Location #9"
+npcTeleporter10,entity,Entity,,"Teleporter Location #10"
+npcTeleporter01,entity,Entity,,"Teleporter Location #1"
+

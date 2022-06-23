@@ -1,0 +1,45 @@
+<configs>
+	
+
+
+  <insertAfter xpath="/npc/npc_info[@id='traderrekt']">
+    <npc_info
+    id="TeleportNPC"
+    name_key="npcTeleportNPC"
+    faction="whiteriver"
+    portrait=""
+    greeting_type="nearby"
+    stance="Like" voice_set="npc_traderJen"
+    trader_id="2" dialog_id="TeleportNPC01" />
+	    <npc_info
+    id="TeleportNPC02"
+    name_key="npcTeleportNPC"
+    faction="whiteriver"
+    portrait=""
+    greeting_type="nearby"
+    stance="Like" voice_set="npc_traderJen"
+    trader_id="2" dialog_id="TeleportNPC01" />
+	    <npc_info
+    id="TeleportNPC03"
+    name_key="npcTeleportNPC"
+    faction="whiteriver"
+    portrait=""
+    greeting_type="nearby"
+    stance="Like" voice_set="npc_traderJen"
+    trader_id="2" dialog_id="TeleportNPC01" />
+	    <npc_info
+    id="TeleportNPC04"
+    name_key="npcTeleportNPC"
+    faction="whiteriver"
+    portrait=""
+    greeting_type="nearby"
+    stance="Like" voice_set="npc_traderJen"
+    trader_id="2" dialog_id="TeleportNPC01" />
+	
+	</insertAfter>
+	
+  
+
+
+	
+</configs>

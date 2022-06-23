@@ -1,0 +1,222 @@
+<config>
+
+	<append xpath="/entity_classes">
+		<entity_class name="npcTeleporterTemplate" >
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="SleeperInstantAwake" value="true" /> <!-- needed to make sure NPCs fully initialized on spawning in all sleeper volumes  -->
+			<property name="EntityType" value="Player"/>
+			<property name="AvatarController" value="AvatarZombie01Controller"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Faction" value="whiteriver"/>
+			<property name="HideInSpawnMenu" value="true"/> 
+			<property name="LootListAlive" value="traderNPC"/> 
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+			<property name="ModelType" value="Standard"/>
+			<property name="HasRagdoll" value="true"/>
+			<property name="Prefab" value="NPC"/>
+			<property name="Parent" value="Players"/>
+			<property name="Mass" value="120"/>
+			<property name="Weight" value="80"/>			
+			<property name="PhysicsBody" value="mixamoConvertedStandard"/>
+			<property name="Immunity" value="sickness;disease;wellness"/> 
+			 <!-- This is the block it'll call home -->
+			<property name="HomeBlocks" value="cntNPCHomeBlock"/>
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="1000" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+
+
+
+		<entity_class name="npcTeleporter01" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #1" />
+            <property name="NPCID" value="TeleportNPC"/>
+         </entity_class>
+
+
+		<entity_class name="npcTeleporter02" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #2" />
+            <property name="NPCID" value="TeleportNPC"/>
+	     </entity_class>
+
+		<entity_class name="npcTeleporter03" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #3" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+
+         </entity_class>
+
+		<entity_class name="npcTeleporter04" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #4" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+
+		<entity_class name="npcTeleporter05" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #4" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+		 
+		<entity_class name="npcTeleporter06" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #4" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+
+		<entity_class name="npcTeleporter07" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #4" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+
+		<entity_class name="npcTeleporter08" extends="npcTeleporterTemplate">
+            <property name="Tags" value="UMA2,entity,male,npc,melee,trader"/>
+			<property name="Mesh" value="#@modfolder:Resources/AOO_EntityBlock.unity3d?EntityBlock"/> 
+			<property name="Names" value="Teleportation Station Location #4" />
+            <property name="NPCID" value="TeleportNPC"/>
+	<!--		<property name="Class" value="EntityAliveSDX, SCore" /> -->
+			<property name="Class" value="EntityTrader"/>
+			<property name="Mass" value="150000"/>			
+			<property name="LookAtAngle" value="0"/>
+			<property name="AIPackages" value=""/>
+			<property name="Hirable" value="true" />
+			<property name="HireCurrency" value="casinoCoin" />
+			<property name="HireCost" value="300" />
+            <effect_group name="StayCommand">
+				<passive_effect name="HealthMax" operation="base_set" value="100000"/>
+                <triggered_effect trigger="onSelfFirstSpawn" action="ModifyCVar" cvar="CurrentOrder" operation="set" value="2"/>
+            </effect_group>
+			<effect_group name="buffs"> 
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffTeleParticle"/> 
+			</effect_group>	
+         </entity_class>
+
+
+
+
+	</append>	
+	
+	
+	
+	
+	
+	
+</config>
+
+<!-- =============================================================================================== -->	
+
+<!-- =============================================================================================== -->	
+
+<!-- =============================================================================================== -->	
+
+<!-- =============================================================================================== -->	
+
+<!-- =============================================================================================== -->	
+
+<!-- =============================================================================================== -->	
+		
+		
+		
+		
+		
+		
+		

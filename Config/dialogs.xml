@@ -1,0 +1,232 @@
+
+
+<configs>
+
+	<append xpath="/dialogs">
+	  
+
+
+		<dialog id="TeleportNPC01" startstatementid="start">
+			<statement id="start" text="Teleportation Station">
+
+
+				<response_entry id="TelBed" />
+				<response_entry id="TelLC" />
+				<response_entry id="TelBP" />
+				<response_entry id="Tel01" />
+				<response_entry id="Tel02" />
+				<response_entry id="Tel03" />
+				<response_entry id="Tel04" />
+				<response_entry id="Tel05" />
+				<response_entry id="Tel06" />
+				<response_entry id="Tel07" />
+				<response_entry id="Tel08" />			
+				<response_entry id="Tel09" />
+				<response_entry id="Tel10" />
+			</statement>
+		<!--	  <response id="Hire" text="Activate Teleportation Station (300 Dukes)" >
+				<requirement type="HiredSDX, SCore" requirementtype="Hide" value="not"/>
+				<action type="OpenDialogSDX, SCore" id="Hire" />
+			  </response>
+-->
+
+
+			<response id="TelBed" text="Teleport to BedRoll" >
+				<action type="AddBuffSDX, SCore" value="Other" id="buffTelBedroll" />
+			</response>	
+
+			<response id="TelLC" text="Teleport to Land Claim" >
+				<action type="AddBuffSDX, SCore" value="Other" id="buffTelLandclaim" />
+			</response>
+
+			<response id="TelBP" text="Teleport to Backback" >
+				<action type="AddBuffSDX, SCore" value="Other" id="buffTelBackpack" />
+			</response>
+
+			<response id="Tel01" text="Teleport to Station #1" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel01Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC01" />
+			</response>	
+
+			<response id="Tel02" text="Teleport to Station #2" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel02Enable" operator="eq" value="1"/>	
+				<action type="Teleport, SCore" id="tpNPC02" />
+			</response>
+
+			<response id="Tel03" text="Teleport to Station #3" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel03Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC03" />
+			</response>
+
+			<response id="Tel04" text="Teleport to Station #4" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel04Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC04" />
+			</response>
+
+			<response id="Tel05" text="Teleport to Station #5" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel05Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC05" />
+			</response>	
+
+			<response id="Tel06" text="Teleport to Station #6" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel06Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC06" />
+			</response>
+
+			<response id="Tel07" text="Teleport to Station #7" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel07Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC07" />
+			</response>
+
+			<response id="Tel08" text="Teleport to Station #8" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel08Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC08" />
+			</response>
+			<response id="Tel09" text="Teleport to Station #9" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel09Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC09" />
+			</response>
+
+			<response id="Tel10" text="Teleport to Station #10" >
+				<requirement type="HasCVarSDX, SCore" requirementtype="Hide" id="Tel110Enable" operator="eq" value="1"/>
+				<action type="Teleport, SCore" id="tpNPC10" />
+			</response>
+
+
+		</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<dialog id="MagicTotemNPC" startstatementid="start">
+			<statement id="start" text="Take your chance!   You may get something really good or really bad!">
+				<response_entry id="Hire" />
+				<response_entry id="RandomReward" />
+		
+			</statement>
+			  <response id="Hire" text="Enable the Magic Totem (300 Dukes)" >
+				<requirement type="HiredSDX, SCore" requirementtype="Hide" value="not"/>
+				<action type="OpenDialogSDX, SCore" id="Hire" />
+			  </response>
+
+
+			<response id="RandomReward" text="Random Reward" >
+				<requirement type="Leader, SCore" requirementtype="Hide"/>
+				<action type="AddBuffSDX, SCore" value="Other" id="buffRandomReward" />
+				<action type="ExecuteCommandSDX, SCore" id="Dismiss" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffOrderDismiss" />
+			</response>
+</dialog>
+
+   <!-- Generic Dialog with Quest options (if quests are available -->
+    <dialog id="PirateGuardNPC" startstatementid="start">
+      <statement id="start" text="dialog_trader_statement_start">
+        <response_entry id="TellMe" />
+        <response_entry id="FollowMe" />
+        <response_entry id="ShowMe" />
+        <response_entry id="StayHere" />
+        <response_entry id="GuardHere" />
+        <response_entry id="Wander" />
+        <response_entry id="SetPatrol" />
+        <response_entry id="SetCode" />
+        <response_entry id="Patrol" />
+        <response_entry id="Loot" />
+        <response_entry id="Hire" />
+        <response_entry id="Dismiss" />
+        <response_entry id="done" />
+		<response_entry id="pickup" />	
+      </statement>
+
+      <!-- If the NPC is not hired ( not the value="not" ), then display this option, allowing a hire dialog box o be opened. --> 
+      <response id="Hire" text="I am interested in hiring you." >
+        <requirement type="HiredSDX, SCore" requirementtype="Hide" value="not"/>
+        <action type="OpenDialogSDX, SCore" id="Hire" />
+      </response>
+
+      <!-- If the entity is hired, you can order the NPCs to do the following: -->
+      <response id="FollowMe" text="Follow me" >
+        <requirement type="Leader, SCore" requirementtype="Hide"/>
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderFollow" />
+      </response>
+			<response id="pickup" text="Pick Up" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+				<action type="AddItemSDX, SCore"  id="npcPirateGuardSpawnerAOO" />
+				<action type="AddBuffSDX, SCore" value="Self" id="buffSuicide" />
+			</response> 
+     <!-- <response id="TellMe" text="Tell me about yourself" >
+        <requirement type="Leader, SCore" requirementtype="Hide"/>
+        <action type="ExecuteCommandSDX, SCore" id="TellMe" />
+      </response> -->
+	  
+      <response id="ShowMe" text="Show Me your inventory" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <action type="ExecuteCommandSDX, SCore" id="OpenInventory" />
+      </response>
+
+	  <response id="StayHere" text="Stay where you are standing" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderStay" />
+      </response>
+	  
+	  <response id="Wander" text="Patrol around here" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderWander" />
+      </response>
+	  
+	<!--  <response id="Patrol" text="Patrol your route" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderPatrol" />
+      </response> -->
+
+	  <response id="GuardHere" text="Stay where I am standing" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <requirement type="HasTask, SCore" requirementtype="Hide" value="Stay" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderGuardHere" />
+      </response>
+
+    <!-- <response id="SetCode" text="Here is your Patrol Code" >
+        <requirement type="HiredSDX, SCore" requirementtype="Hide" />
+        <action type="OpenWindowSDX, SCore" id="SetCode" />
+      </response> -->
+	  
+	  <response id="Loot" text="Loot around here" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <requirement type="HasTask, SCore" requirementtype="Hide" value="LootBasic" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderLoot" />
+      </response>  
+
+	  <response id="Dismiss" text="Dismiss" >
+        <requirement type="Leader, SCore" requirementtype="Hide" />
+        <action type="ExecuteCommandSDX, SCore" id="Dismiss" />
+        <action type="AddBuffSDX, SCore" value="Self" id="buffOrderDismiss" />
+      </response>
+ 
+      <response id="done" text="dialog_trader_response_nevermind" />
+
+    </dialog>
+
+
+
+
+
+
+
+		
+	</append>
+
+</configs>

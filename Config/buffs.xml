@@ -1,0 +1,170 @@
+<configs>
+	
+	<append xpath="/buffs">	
+
+
+
+
+		<buff name="buffTeleParticle" hidden="true">
+		<duration value="1"/>
+			<stack_type value="ignore"/>
+			<effect_group>
+			
+			<triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="#@modfolder:Resources/AOO_Teleporters2.unity3d?TeleportParticle2" parent_transform="Origin" > 
+
+				</triggered_effect>	
+
+			</effect_group>
+		</buff>	
+
+		   <buff name="buffTelBedroll" hidden="false" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<duration value="5"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_teleport_bedroll" />
+				</effect_group>
+			</buff>	
+
+		   <buff name="buffTelLandclaim" hidden="false" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<duration value="5"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_teleport_landclaim" />
+				</effect_group>
+			</buff>
+			
+		   <buff name="buffTelBackpack" hidden="false" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<duration value="5"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffStart" action="CallGameEvent" event="action_teleport_backpack" />
+				</effect_group>
+			</buff>	
+
+
+		   <buff name="buffTel01" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel01Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="1"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel01" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="1"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+			
+		   <buff name="buffTel02" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel02Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="2"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel02" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="2"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel03" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel03Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="3"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel03" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="3"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel04" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel04Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="4"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel04" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="4"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel05" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel05Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="5"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel05" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="5"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel06" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel06Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="6"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel06" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="6"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel07" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel07Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="7"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel07" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="7"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel08" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel08Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="8"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel08" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="8"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel09" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+				<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel09Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="9"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel09" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="9"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+		   <buff name="buffTel10" hidden="true" name_key="" description_key="" icon="ui_game_symbol_candy_fortitude">
+				<stack_type value="ignore"/>
+					<update_rate value="3"/>
+				<effect_group>
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="Tel10Enable" operation="set" value="1" >
+						<requirement name="ProgressionLevel" target="self" progression_name="attTeleportation" operation="GTE" value="10"/>	
+					</triggered_effect>
+					<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="other" buff="buffTel10" >
+						<requirement name="ProgressionLevel" target="other" progression_name="attTeleportation" operation="GTE" value="10"/>
+							</triggered_effect>
+				</effect_group>
+			</buff>	
+
+
+	</append>	
+	
+</configs>

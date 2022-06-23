@@ -1,0 +1,57 @@
+<configs>
+    <append xpath="/recipes">
+
+		<recipe name="npcTeleporter01AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter01AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter02AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter02AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter03AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter03AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter04AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter04AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter05AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter05AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter06AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter06AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter07AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter07AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter08AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter08AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter09AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter09AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+		<recipe name="npcTeleporter10AOO" count="1" craft_area="workbench" tags="learnable,npcTeleporter10AOO">
+		  <ingredient name="resourceElectricParts" count="50"/>
+		  <ingredient name="resourceMechanicalParts" count="50"/>
+		  <ingredient name="resourceForgedIron" count="25"/>
+		</recipe>
+
+	
+	</append>
+</configs>

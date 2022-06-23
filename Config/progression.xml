@@ -1,0 +1,47 @@
+<config>
+
+
+	<insertAfter xpath="/progression/attributes/attribute[@name='attIntellect']">
+
+			<attribute name="attTeleportation" name_key="Teleportation" desc_key="Teleportation" icon="ui_game_symbol_White_AOO" min_level="1" max_level="10" base_skill_point_cost="2" cost_multiplier_per_level="1">
+				<level_requirements level="1"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="2"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="3"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="4"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="5"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="6"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="7"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="8"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="9"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+				<level_requirements level="10"><requirement name="PlayerLevel" operation="GTE" value="1" desc_key="reqGenericPoints02"/></level_requirements>
+			<effect_group>
+
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,10" value="1" tags="npcTeleporter01AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,10" value="1" tags="npcTeleporter02AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,10" value="1" tags="npcTeleporter03AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,10" value="1" tags="npcTeleporter04AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,10" value="1" tags="npcTeleporter05AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="6,10" value="1" tags="npcTeleporter06AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="7,10" value="1" tags="npcTeleporter07AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="8,10" value="1" tags="npcTeleporter08AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="9,10" value="1" tags="npcTeleporter09AOO"/>	
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" level="10" value="1" tags="npcTeleporter10AOO"/>	
+				
+				<effect_description level="1" desc_base="Allows Teleporting to BedRoll, Land Claim and BackPack. Unlocks Teleportation Station #1" />
+				<effect_description level="2" desc_base="Adds Teleporting to location #1 and Location #2. Unlocks Teleportation Station #2"  />
+				<effect_description level="3" desc_base="Adds Teleporting to location #3. Unlocks Teleportation Station #3"  />
+				<effect_description level="4" desc_base="Adds Teleporting to location #4. Unlocks Teleportation Station #4"  />
+				<effect_description level="5" desc_base="Adds Teleporting to location #5. Unlocks Teleportation Station #5"  />
+				<effect_description level="6" desc_base="Adds Teleporting to location #6. Unlocks Teleportation Station #6"  />
+				<effect_description level="7" desc_base="Adds Teleporting to location #7. Unlocks Teleportation Station #7"  />
+				<effect_description level="8" desc_base="Adds Teleporting to location #8. Unlocks Teleportation Station #8"  />
+				<effect_description level="9" desc_base="Adds Teleporting to location #9. Unlocks Teleportation Station #9"  />
+				<effect_description level="10" desc_base="Adds Teleporting to location #10. Unlocks Teleportation Station #10"  /> 
+			</effect_group>
+		</attribute>
+
+	</insertAfter> 
+
+
+</config>
+	
